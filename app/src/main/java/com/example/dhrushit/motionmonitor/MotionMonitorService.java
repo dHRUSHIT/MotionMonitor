@@ -21,6 +21,10 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
 
+/* TODO :
+ - make this work at startup
+ - make this not closable
+*/
 
 /**
  * Created by dHRUSHIT on 4/15/2017.

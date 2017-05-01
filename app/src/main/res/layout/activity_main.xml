@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent">
-    <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical">
+    <!--TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:id="@+id/info"/>
+        android:id="@+id/info"/-->
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="walking"
+        android:id="@+id/btn_walking"
+        android:src="@drawable/run_off" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="running"
+        android:id="@+id/btn_running"
+        android:src="@drawable/walk_off"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="climb up stairs"
+        android:id="@+id/btn_climb_up"
+        android:src="@drawable/climb_up_off"/>
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="descend stairs"
+        android:id="@+id/btn_climb_down"
+        android:src="@drawable/climb_down_off"/>
 
 </LinearLayout>
